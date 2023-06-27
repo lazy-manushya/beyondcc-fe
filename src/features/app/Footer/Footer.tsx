@@ -11,7 +11,7 @@ const Footer: React.FC<IFooterProps> = () => {
   return (
     <StyledFooter>
       <StyledContentContainer>
-        <AppLogo variant="white" className="d-none d-md-block" />
+        <AppLogo variant="white" className="d-none d-md-inline-flex" />
 
         <FooterNav />
 
