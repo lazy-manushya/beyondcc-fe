@@ -10,7 +10,7 @@ const FooterNav: React.FC = () => {
     <StyledFooterNav>
       <Row tag="ul">
         {FOOTER_ITEMS.map((item, i) => (
-          <Col tag="li" xs="6">
+          <Col key={i} tag="li" xs="6">
             <StyledLink href={item.link}>{item.name}</StyledLink>
           </Col>
         ))}
