@@ -12,6 +12,8 @@ import {
   StyledContent,
   StyledCtaSection,
   StyledHeroImage,
+  StyledContentSection,
+  StyledImageSection,
 } from "./HeroSection.styles";
 
 const HeroSection: React.FC<IHeroSectionProps> = () => {
@@ -19,14 +21,16 @@ const HeroSection: React.FC<IHeroSectionProps> = () => {
 
   return (
     <StyledContainer>
-      <StyledHeroImage
-        src="assets/images/home-page/hero-section-illustration.svg"
-        alt=""
-        height={720}
-        width={720}
-      />
+      <StyledImageSection>
+        <StyledHeroImage
+          src="assets/images/home-page/hero-section-illustration.svg"
+          alt=""
+          height={720}
+          width={720}
+        />
+      </StyledImageSection>
 
-      <div>
+      <StyledContentSection>
         <StyledHeading>
           Tailored Recruitment Platform for SaaS Professionals
         </StyledHeading>
@@ -51,7 +55,7 @@ const HeroSection: React.FC<IHeroSectionProps> = () => {
             Find Your Next Hire
           </Button>
         </StyledCtaSection>
-      </div>
+      </StyledContentSection>
     </StyledContainer>
   );
 };
