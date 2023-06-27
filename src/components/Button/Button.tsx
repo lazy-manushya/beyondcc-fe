@@ -56,4 +56,6 @@ const Button: React.FunctionComponent<IButtonProps> = React.forwardRef(
   }
 );
 
+Button.displayName = 'Button';
+
 export default Button;

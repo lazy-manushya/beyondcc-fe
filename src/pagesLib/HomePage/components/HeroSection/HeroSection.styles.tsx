@@ -2,11 +2,15 @@ import Image from "next/image";
 import { styled } from "styled-components";
 
 import Container from "~/components/Container";
-import { screenLargerThan, screenSmallerThan } from "~/styles";
+import {
+  getViewPortHeightCssString,
+  screenLargerThan,
+  screenSmallerThan,
+} from "~/styles";
 
 export const StyledHeroImage = styled(Image)`
   ${screenLargerThan.smallMonitor} {
-    max-width: 40vw;
+    max-width: 30vw;
     flex: 1;
   }
 
@@ -23,6 +27,16 @@ export const StyledHeading = styled.h1`
   ${screenLargerThan.tablet} {
     font-size: 56px;
   }
+`;
+
+export const StyledImageSection = styled.div`
+  display: grid;
+  place-content: center;
+  padding: 0 3rem;
+`;
+
+export const StyledContentSection = styled.div`
+  padding: 0 3rem;
 `;
 
 export const StyledContent = styled.p`
@@ -45,10 +59,15 @@ export const StyledCtaSection = styled.div`
 `;
 
 export const StyledContainer = styled(Container)`
+  min-height: ${getViewPortHeightCssString(100, "- var(--header-height)")};
+
   ${screenLargerThan.smallMonitor} {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+
+    & > * {
+      flex: 1;
+    }
   }
 `;

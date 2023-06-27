@@ -10,7 +10,7 @@ const Header: React.FC<IHeaderProps> = ({ className }) => {
   return (
     <StyledHeader className={className}>
       <StyledContentHeader>
-        <AppLogo />
+        <AppLogo className="h-100" />
 
         <HeaderNav />
       </StyledContentHeader>

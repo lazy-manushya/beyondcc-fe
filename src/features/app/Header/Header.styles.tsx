@@ -35,6 +35,7 @@ export const StyledHeaderNav = styled.nav`
 export const StyledHeader = styled.header`
   height: var(--header-height);
   background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 `;
 
 export const StyledContentHeader = styled(Container)`
