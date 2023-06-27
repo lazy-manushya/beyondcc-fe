@@ -12,16 +12,16 @@ export const BUTTON_VARAINT_CONFIG: {
   primary: {
     primary: {
       color: "#fff",
-      bgColor: "var(--clr-primary)",
-      borderColor: "var(--clr-primary)",
+      bgColor: "var(--clr-accent)",
+      borderColor: "var(--clr-accent)",
     },
     secondary: {
-      color: "var(--clr-primary)",
+      color: "var(--clr-accent)",
       bgColor: "transparent",
-      borderColor: "var(--clr-primary)",
+      borderColor: "var(--clr-accent)",
     },
     ghost: {
-      color: "var(--clr-primary)",
+      color: "var(--clr-accent)",
       bgColor: "transparent",
       borderColor: "transparent",
     },
