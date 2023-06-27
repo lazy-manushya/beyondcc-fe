@@ -22,3 +22,14 @@ export const StyledContainer = styled.div`
     flex-grow: 1;
   }
 `;
+
+export const StyledAppVersion = styled.div`
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 4px 12px;
+  border-radius: 100px;
+  font-size: 14px;
+  color: #fff;
+  background: var(--clr-accent);
+`;

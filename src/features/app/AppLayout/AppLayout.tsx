@@ -1,9 +1,15 @@
 import React from "react";
 
+import { APP_VERSION } from "~/config/app";
 import Footer from "~/features/app/Footer";
 
 import { IAppLayoutProps } from "./AppLayout.types";
-import { StyledContainer, StyledHeader, StyledMain } from "./AppLayout.styles";
+import {
+  StyledAppVersion,
+  StyledContainer,
+  StyledHeader,
+  StyledMain,
+} from "./AppLayout.styles";
 
 const AppLayout: React.FC<IAppLayoutProps> = ({ children, className }) => {
   return (
@@ -11,6 +17,8 @@ const AppLayout: React.FC<IAppLayoutProps> = ({ children, className }) => {
       <StyledHeader />
       <StyledMain>{children}</StyledMain>
       <Footer />
+
+      <StyledAppVersion>V {APP_VERSION}</StyledAppVersion>
     </StyledContainer>
   );
 };
