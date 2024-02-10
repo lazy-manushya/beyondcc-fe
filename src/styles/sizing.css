@@ -1,0 +1,11 @@
+:root {
+  --header-height: 122px;
+  --input-height: 40px;
+  --border-radius-md: 12px;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --input-height: 32px;
+  }
+}

@@ -1,0 +1,62 @@
+:root {
+  --clr-bg-color-primary: #ffffff;
+  --clr-primary: #000;
+  --clr-secondary: #ff9551;
+  --clr-error: #ff876f;
+  --clr-warning: #ffcb11;
+  --clr-success: #6eff4e;
+  --clr-gray: #3a4b40;
+  --clr-gray-light: #232323;
+
+  --clr-text: #191919;
+  --clr-text-light: #80899b75;
+
+  --clr-fg-primary: #dfe5ed;
+
+  /* ----------| Bootstrap overwrite |------------- */
+  --bs-danger-rgb: #ff876f;
+
+  /* ----------------------- */
+  --clr-bg-device-gw: #032395;
+  --clr-bg-device-comm: #7ce7ff;
+  --clr-bg-device-smart: #0d7eae;
+
+  /* ----------| Dashboard |------------- */
+  --clr-dashboard-sidebar-bg: rgba(241, 241, 241, 0.701);
+
+  /* ----------| Greys |------------- */
+  --clr-grey-500: #3b3b3b;
+
+  /* ------------------------------
+  ------------------------------
+  ------------------------------
+  ------------------------------ */
+  --clr-light-pink: #f8e2fd;
+  --clr-orange: #ff8a00;
+}
+
+body {
+  position: relative;
+  /* background: var(--clr-bg-color-primary) !important; */
+  color: var(--clr-text) !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.clr-success {
+  color: var(--clr-success) !important;
+}
+
+.clr-error {
+  color: var(--clr-error) !important;
+}
+
+.clr-primary {
+  color: var(--clr-primary) !important;
+}
+
+.clr-secondary {
+  color: var(--clr-secondary) !important;
+}
