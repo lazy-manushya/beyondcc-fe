@@ -1,9 +1,0 @@
-* {
-  box-sizing: border-box;
-}
-
-.container {
-  border-right: 1px solid rgba(0, 0, 0, 0.04);
-  border-left: 1px solid rgba(0, 0, 0, 0.04);
-  max-width: 1460px;
-}
