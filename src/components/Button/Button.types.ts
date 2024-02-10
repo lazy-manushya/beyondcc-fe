@@ -11,7 +11,7 @@ export interface IButtonProps extends React.ButtonHTMLAttributes<Element> {
   ref?: any;
   link?: string;
   variant?: ButtonVariant;
-  onPressEnd?: any;
+  onPress?: any;
   useReactAria?: boolean;
   colorVariant?: ColorVariant;
   debug?: boolean;

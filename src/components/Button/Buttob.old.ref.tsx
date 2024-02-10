@@ -1,4 +1,3 @@
-"use client"
 import React, { useRef, useCallback } from "react";
 import { useButton } from "react-aria";
 import Link from "next/link";

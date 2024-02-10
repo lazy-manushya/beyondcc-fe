@@ -6,8 +6,8 @@ export const BUTTON_VARAINT_CONFIG: Record<
 > = {
   primary: {
     primary: {
-      color: "var(--clr-primary)",
-      bgColor: "transparent",
+      color: "#fff",
+      bgColor: "var(--clr-primary)",
       borderColor: "var(--clr-primary)",
     },
     secondary: {
@@ -40,8 +40,8 @@ export const BUTTON_VARAINT_CONFIG: Record<
   },
   danger: {
     primary: {
-      color: "var(--clr-error)",
-      bgColor: "#fff",
+      color: "#fff",
+      bgColor: "var(--clr-error)",
       borderColor: "var(--clr-error)",
     },
     secondary: {
