@@ -27,7 +27,7 @@ export const StyledButton = styled.button<IStyledButtonProps>`
 
   padding: 0.5rem;
   text-decoration: none;
-  border-radius: var(--border-radius-md);
+  border-radius: 2px;
   border: 2px solid var(--border-color);
   color: var(--color);
   background-color: var(--bg-color);
@@ -39,6 +39,7 @@ export const StyledButton = styled.button<IStyledButtonProps>`
   align-items: center;
   gap: 12px;
   min-width: fit-content;
+  cursor: pointer;
 
   transition: width, filter, 240ms ease-in-out;
 
