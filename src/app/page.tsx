@@ -1,3 +1,1 @@
-export default function Home() {
-  return <main>Beyond CC</main>;
-}
+export { default } from "~/features/pages/LandingPage";
